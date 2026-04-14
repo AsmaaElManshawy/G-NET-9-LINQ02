@@ -254,9 +254,17 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 17
-
+            //========================================
             //17.Try to get the first product with a price > $500.
             //it returns null instead of throwing.
+            //========================================
+
+            //var result17 = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+
+            //if (result17 != null)
+            //    Console.WriteLine(result17);
+            //else
+            //    Console.WriteLine("Not Found");
 
             #endregion
 
