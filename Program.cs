@@ -184,8 +184,14 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 12
-
+            //========================================
             //12.Get a distinct list of all product categories
+            //========================================
+
+            //var categories = ProductList.Select(p => p.Category).Distinct();
+
+            //foreach (var c in categories)
+            //    Console.WriteLine(c);
 
             #endregion
 
