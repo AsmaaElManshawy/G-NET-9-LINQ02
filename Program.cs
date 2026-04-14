@@ -64,10 +64,16 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 05
-
+            //========================================
             //5.Check if the ID list contains 9
+            //int[] ids = { 3, 9, 13, 18 };
+            //==========================================
 
-            int[] ids = { 3, 9, 13, 18 };
+            //int[] ids = { 3, 9, 13, 18 };
+
+            //bool contains9 = ids.Contains(9);
+            //Console.WriteLine(contains9);
+
             #endregion
 
             #region Question 06
