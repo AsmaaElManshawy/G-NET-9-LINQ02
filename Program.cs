@@ -1,0 +1,165 @@
+﻿using System;
+using LINQAssignment02.DataSources;
+using LINQAssignment02.Helpers;
+using LINQAssignment02.Models;
+using System.Collections.Generic;
+using System.Xml.Linq;
+using static LINQAssignment02.DataSources.Source;
+
+namespace LINQAssignment02
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region LINQ ASSIGNMENT 02
+
+            #region Question 01
+
+            //1.Get top 3 most expensive products
+
+
+            #endregion
+
+            #region Question 02
+
+            //2.show page 2 of products, with page size = 5
+
+            #endregion
+
+            #region Question 03
+
+            //3.Take products from the list as long as Their UnitPrice is less than $25
+            //(list is ordered by price).
+
+            #endregion
+
+            #region Question 04
+
+            //4.Check if ALL products in the "Seafood" category are in stock
+
+            #endregion
+
+            #region Question 05
+
+            //5.Check if the ID list contains 9
+
+            int[] ids = { 3, 9, 13, 18 };
+            #endregion
+
+            #region Question 06
+
+            //6.Group all products by Category and print each group with its product count.
+
+            #endregion
+
+            #region Question 07
+
+            //7.Group products by Category and project only product names per group
+
+            #endregion
+
+            #region Question 08
+
+            //8.Find all categories that have MORE THAN 3 products
+
+            #endregion
+
+            #region Question 09
+
+            //9.Using QUERY SYNTAX, group customers by Country,
+            //and for each group select { Country, Count, TotalOrderValue }.
+
+            #endregion
+
+            #region Question 10
+
+            //10.Calculate the total number of units in stock across all products
+
+            #endregion
+
+            #region Question 11 
+
+            //11.Find the CHEAPEST and MOST EXPENSIVE product prices
+
+            #endregion
+
+            #region Question 12
+
+            //12.Get a distinct list of all product categories
+
+            #endregion
+
+            #region Question 13
+
+            //13.find product IDs that are in setA but NOT in setB
+
+            int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            int[] setB = { 3, 6, 9, 12, 15, 13 };
+
+            #endregion
+
+            #region Question 14
+
+            //14.Find countries that appear in list1 but NOT in list2 (case -insensitive).
+
+            string[] list1 = { "Germany", "France", "UK", "Spain" };
+            string[] list2 = { "france", "SPAIN", "Italy" };
+
+
+            #endregion
+
+            #region Question 15
+
+            //15.Build a Dictionary<int, Product> keyed by ProductID.
+            //Then retrieve and print the product with ID = 18.
+
+            #endregion
+
+            #region Question 16
+
+            //16.Get the first product whose price is greater than $50.
+
+            #endregion
+
+            #region Question 17
+
+            //17.Try to get the first product with a price > $500.
+            //it returns null instead of throwing.
+
+            #endregion
+
+            #region Question 18
+
+            //18.Generate a multiplication table row for 7
+
+            #endregion
+
+            #region Question 19
+
+            //19.Generate even numbers between 1 and 30.
+
+            #endregion
+
+            #region Question 20
+
+            //20.Concatenate the first 3 product names with
+            //the first 3 customer company names into a single sequence.
+
+            #endregion
+
+            #region Question 21
+
+            //21.Pair each product with a customer(by position)
+            //and produce a string "ProductName sold to CompanyName".
+
+            #endregion
+
+            #endregion
+
+            Console.WriteLine("\n" + new string('-',70));
+            Console.WriteLine("\n" + new string('-', 70));
+
+        }
+    }
+}
