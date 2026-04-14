@@ -1,8 +1,9 @@
-﻿using System;
-using LINQAssignment02.DataSources;
+﻿using LINQAssignment02.DataSources;
 using LINQAssignment02.Helpers;
 using LINQAssignment02.Models;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Xml.Linq;
 using static LINQAssignment02.DataSources.Source;
 
@@ -213,12 +214,19 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 14
-
+            //========================================
             //14.Find countries that appear in list1 but NOT in list2 (case -insensitive).
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+            //========================================
 
-            string[] list1 = { "Germany", "France", "UK", "Spain" };
-            string[] list2 = { "france", "SPAIN", "Italy" };
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+            //// Germany, UK
+            //var result14 = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
 
+            //foreach (var c in result14)
+            //    Console.WriteLine(c);
 
             #endregion
 
