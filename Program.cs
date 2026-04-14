@@ -162,8 +162,12 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 10
-
+            //========================================
             //10.Calculate the total number of units in stock across all products
+            //========================================
+
+            //var totalUnits = ProductList.Sum(p => p.UnitsInStock);
+            //Console.WriteLine(totalUnits);
 
             #endregion
 
