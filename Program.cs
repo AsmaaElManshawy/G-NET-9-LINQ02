@@ -269,8 +269,14 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 18
-
+            //========================================
             //18.Generate a multiplication table row for 7
+            //========================================
+
+            //var table7 = Enumerable.Range(1, 10).Select(x => 7 * x);
+
+            //foreach (var x in table7)
+            //    Console.WriteLine(x);
 
             #endregion
 
