@@ -12,6 +12,8 @@ namespace LINQAssignment02
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\n" + new string('-', 70) + "\n" + new string('-', 70));
+
             #region LINQ ASSIGNMENT 02
 
             #region Question 01
@@ -92,8 +94,36 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 07
-
+            //========================================
             //7.Group products by Category and project only product names per group
+            //========================================
+
+            //var group7 = ProductList.GroupBy(p => p.Category)
+            //                        .Select(g => new { Category = g.Key, Names = g.Select(p => p.ProductName) });
+
+            //foreach (var g in group7)
+            //{
+            //    Console.WriteLine("\n" + new string('-', 50) + "\n");
+            //    Console.WriteLine(g.Category);
+            //    foreach (var name in g.Names)
+            //        Console.WriteLine(name);
+            //}
+
+            //// OR
+
+            //Console.WriteLine("\n" + new string('-', 50) + "\n" + new string('-', 50));
+
+            //var group07 = ProductList.GroupBy(p => p.Category);
+
+            //foreach (var g in group07)
+            //{
+            //    Console.WriteLine("\n" + new string('-', 50) + "\n");
+            //    Console.WriteLine(g.Key);
+            //    foreach (var p in g)
+            //    {
+            //        Console.WriteLine(p.ProductName);
+            //    }
+            //}
 
             #endregion
 
@@ -195,8 +225,8 @@ namespace LINQAssignment02
 
             #endregion
 
-            Console.WriteLine("\n" + new string('-',70));
-            Console.WriteLine("\n" + new string('-', 70));
+            Console.WriteLine("\n" + new string('-', 70) + "\n" + new string('-', 70));
+
 
         }
     }
