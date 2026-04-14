@@ -307,9 +307,15 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 21
-
+            //========================================
             //21.Pair each product with a customer(by position)
             //and produce a string "ProductName sold to CompanyName".
+            //========================================
+
+            //var result21 =  ProductList.Zip(CustomerList, (p, c) => $"{p.ProductName} sold to {c.CompanyName}");
+
+            //foreach (var x in result21)
+            //    Console.WriteLine(x);
 
             #endregion
 
