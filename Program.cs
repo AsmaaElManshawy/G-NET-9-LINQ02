@@ -17,7 +17,12 @@ namespace LINQAssignment02
             #region Question 01
 
             //1.Get top 3 most expensive products
+            //=======================================
 
+            //var top3 = ProductList.OrderByDescending(p => p.UnitPrice).Take(3);
+
+            //foreach (var p in top3)
+            //    Console.WriteLine(p);
 
             #endregion
 
