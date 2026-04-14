@@ -12,7 +12,7 @@ namespace LINQAssignment02
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\n" + new string('-', 70) + "\n" + new string('-', 70));
+            Console.WriteLine("\n" + new string('-', 70) + "\n" + new string('-', 70) + "\n");
 
             #region LINQ ASSIGNMENT 02
 
@@ -128,8 +128,14 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 08
-
+            //========================================
             //8.Find all categories that have MORE THAN 3 products
+            //========================================
+
+            //var result8 = ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3);
+
+            //foreach (var g in result8)
+            //    Console.WriteLine(g.Key);
 
             #endregion
 
