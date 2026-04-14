@@ -39,9 +39,15 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 03
-
+            //========================================
             //3.Take products from the list as long as Their UnitPrice is less than $25
             //(list is ordered by price).
+            //========================================
+
+            //var result3 = ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
+
+            //foreach (var p in result3)
+            //    Console.WriteLine(p);
 
             #endregion
 
