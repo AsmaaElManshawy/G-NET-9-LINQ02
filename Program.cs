@@ -77,8 +77,17 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 06
+            //========================================
+            //6.Group all products by Category and
+            //print each group with its product count.
+            //========================================
 
-            //6.Group all products by Category and print each group with its product count.
+            //var group6 = ProductList.GroupBy(p => p.Category);
+
+            //foreach (var g in group6)
+            //{
+            //    Console.WriteLine($"{g.Key} - Product Count: {g.Count()}");
+            //}
 
             #endregion
 
