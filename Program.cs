@@ -293,9 +293,16 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 20
-
+            //========================================
             //20.Concatenate the first 3 product names with
             //the first 3 customer company names into a single sequence.
+            //========================================
+
+            //var result20 = ProductList.Take(3).Select(p => p.ProductName)
+            //                    .Concat(CustomerList.Take(3).Select(c => c.CompanyName));
+
+            //foreach (var x in result20)
+            //    Console.WriteLine(x);
 
             #endregion
 
