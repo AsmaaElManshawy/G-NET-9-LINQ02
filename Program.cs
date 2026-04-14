@@ -231,9 +231,15 @@ namespace LINQAssignment02
             #endregion
 
             #region Question 15
-
+            //========================================
             //15.Build a Dictionary<int, Product> keyed by ProductID.
             //Then retrieve and print the product with ID = 18.
+            //========================================
+
+            //var dict = ProductList.ToDictionary(p => p.ProductID);
+
+            //if (dict.TryGetValue(18, out var product))
+            //    Console.WriteLine(product);
 
             #endregion
 
